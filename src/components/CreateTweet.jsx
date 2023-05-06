@@ -3,6 +3,7 @@ import "./createTweet.css";
 const CreateTweet = () => {
   const [tweetContent, setTweetContent] = useState("");
   return (
+    <>
     <div className="tweet-create">
       <textarea
         id="tweet-text"
@@ -16,6 +17,7 @@ const CreateTweet = () => {
         <button id="tweet-btn">Tweet</button>
       </div>
     </div>
+    </>
   );
 };
 
